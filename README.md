@@ -15,7 +15,7 @@ s = '   ab  cd ^888 https://gitlab.com/nlp_ericsson_spring/nlp_ericsson2/-/tree/
 cache_english_stopwords = stopwords.words('english')
 
 # remove the links
-text = re.sub(r'https:\/\/[a-z]*\.[a-z]*\/[a-z]*\_[a-z]*\_[a-z]*\/[a-z]*\_[a-z]*[0-9]\/\-\/[a-z]*\/[a-z]*','............',s)
+text = re.sub(r'https:\/\/\w+\.\w+\/\w+\_\w+\_\w+\/\w+\_\w+\/\-\/\w+\/\w+','............',s)
 print(text)
 
 ```
