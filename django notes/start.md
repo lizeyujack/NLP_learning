@@ -1,4 +1,4 @@
-#get started with Django3.0.3
+# get started with Django3.0.3
 
 # clone class codes:
 ```
